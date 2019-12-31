@@ -1,0 +1,835 @@
+/* ------ CSS RESET ------*/
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size:30px;
+  line-height: 30px;
+background-color: #F9F6EB;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+  font-family: 'Homemade Apple', cursive;
+  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-repeat: no-repeat;
+  background-position:top;
+}
+
+.container {
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 0%;
+  grid-template-rows: repeat(9, 100px);
+  grid-row-gap:0px;
+}
+
+#nav {
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:1;
+  grid-row-end:2;
+}
+
+#deviceimg {
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:3;
+  grid-row-end:7;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#deviceimg img {max-width: 90%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+display: block;}
+
+#logo {
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:2;
+  grid-row-end:3;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo img { max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 15%;
+}
+
+#title{
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:4;
+  grid-row-end:5;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+#slogan{
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:5;
+  grid-row-end:6;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 0%;
+}
+
+#buynowbutton {
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:6;
+  grid-row-end:7;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 0%;}
+
+  #buynowbutton img {
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%;
+  }
+
+
+h1 {
+font-family: 'Homemade Apple', cursive;
+font-size: 150%;
+}
+
+h2 {
+font-family: 'Reenie Beanie', cursive;
+font-size: 100%;
+}
+
+h3 {font-family: 'Source Sans Pro', sans-serif;
+font-size: 100%;
+font-weight: bold;}
+
+p {font-family: 'Source Sans Pro', sans-serif;
+font-size: 100%;
+font-weight: lighter;}
+
+ul {
+  list-style-type: none;
+  color:#404040;
+margin-left: 20%;
+padding-top: 5%;}
+
+a { text-decoration: none;
+color:#404040;}
+
+a:hover {
+  font-weight: bold;
+}
+
+li {
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: lighter;
+font-size: 50%;
+display: inline;
+color:#404040;
+padding-right: 10%;
+}
+
+
+/*ABOUT*/
+
+#about h1 {color:#FDE4E2;
+  background-color: #696866;
+margin-top: 8%;
+margin-left: 10%;}
+
+#about {
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:9;
+  grid-row-end:10;
+font-family: 'Homemade Apple', cursive;
+font-size: 100%;
+text-align: left;
+height:1500%;
+background-color:#696866;
+margin-top: 5%;
+}
+
+#title1 {
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:10;
+  grid-row-end:11;
+  margin-top: 30%;
+  background-color:#696866;
+}
+
+#title1 h3 {padding-left: 20%;
+  color:#F9F6EB;
+background-color:#696866;}
+
+#text1 {
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:11;
+  grid-row-end:14;
+  margin-top: 0%;
+  background-color:#696866;
+
+}
+
+#text1 p {padding-left: 20%;
+  color:#F9F6EB;
+background-color:#696866;
+line-height: 125%;}
+
+#image1 {  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:10;
+  grid-row-end:14;
+background-color:#696866;}
+
+#image1 img {max-width: 70%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 10%;
+}
+
+#title2 {
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:15;
+  grid-row-end:16;
+  margin-top: 30%;
+  background-color:#696866;
+}
+
+#title2 h3 {padding-right: 20%;
+  color:#F9F6EB;
+background-color:#696866;}
+
+#text2 {
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:15;
+  grid-row-end:16;
+  margin-top: 40%;
+    background-color:#696866;
+}
+
+#text2 p {padding-right: 20%;
+  color:#F9F6EB;
+background-color:#696866;
+line-height: 125%;}
+
+#image2 {  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:15;
+  grid-row-end:16;
+background-color:#696866;}
+
+#image2 img {max-width: 70%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 10%;
+}
+
+#title3 {
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:16;
+  grid-row-end:17;
+  margin-top: 30%;
+  background-color:#696866;
+}
+
+#title3 h3 {padding-left: 20%;
+  color:#F9F6EB;
+background-color:#696866;}
+
+#text3 {
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:16;
+  grid-row-end:17;
+  margin-top: 40%;
+  background-color:#696866;
+}
+
+#text3 p {padding-left: 20%;
+  color:#F9F6EB;
+background-color:#696866;
+line-height: 125%;
+margin-bottom: 10%;}
+
+#image3 {  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:16;
+  grid-row-end:17;
+background-color:#696866;}
+
+#image3 img {max-width: 70%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 10%;
+margin-bottom: 10%;
+}
+
+#buy h1 {color:#404040;
+margin-top: 8%;
+margin-left: 10%;
+padding-bottom: 10%}
+
+#buy {
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:17;
+  grid-row-end:18;
+font-family: 'Homemade Apple', cursive;
+font-size: 100%;
+text-align: left;
+margin-top: 5%;
+}
+
+#sketcher {grid-column-start:1;
+grid-column-end:2;
+grid-row-start:19;
+grid-row-end:24;
+margin-left: 30%;
+margin-top: 30%;}
+
+#sketcher img {
+max-width: 50%;}
+
+#craftsman {grid-column-start:1;
+grid-column-end:3;
+grid-row-start:19;
+grid-row-end:24;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 10%;}
+
+#craftsman img {
+max-width: 70%;
+margin-left: 10%;}
+
+#illustrator {grid-column-start:2;
+grid-column-end:3;
+grid-row-start:19;
+grid-row-end:24;
+margin-left: 30%;
+margin-top: 30%;
+margin-bottom: 40%;}
+
+#illustrator img {
+max-width: 50%;}
+
+
+/*MEDIA 54 */
+@media (max-width:54em)
+{ a {
+font-size: 160%;
+}
+
+#logo img { max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10%;
+}
+
+  h1 {
+font-family: 'Homemade Apple', cursive;
+font-size: 100%;
+}
+
+#title{
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:3;
+  grid-row-end:4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+h2 {
+font-family: 'Reenie Beanie', cursive;
+font-size: 80%;
+}
+
+#slogan{
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:4;
+  grid-row-end:5;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 0%;
+}
+
+#buynowbutton img {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10%;
+}
+
+#buynowbutton {
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:5;
+  grid-row-end:6;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 0%;}
+
+h3 {font-family: 'Source Sans Pro', sans-serif;
+font-size: 80%;
+font-weight: bold;}
+
+#about {
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:6;
+  grid-row-end:7;}
+
+  #title1 {
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:7;
+    grid-row-end:8;
+    margin-top: 20%;
+  }
+
+  p {font-family: 'Source Sans Pro', sans-serif;
+  font-size: 60%;
+  font-weight: lighter;}
+
+
+  #text1 {
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:9;
+    grid-row-end:10;
+  margin-top: -15%;}
+
+  #image1 {  grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:7;
+    grid-row-end:10;
+  background-color:#696866;}
+
+  #image1 img {max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10%;
+  }
+
+  #title2 {
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:11;
+    grid-row-end:12;
+    margin-top: 20%;
+    background-color:#696866;
+  }
+
+  #title2 h3 {padding-right: 20%;
+    color:#F9F6EB;
+  background-color:#696866;}
+
+  #text2 {
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:12;
+    grid-row-end:15;
+    margin-top: 0%;
+      background-color:#696866;
+  }
+
+  #image2 { grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:11;
+    grid-row-end:15;
+  background-color:#696866;}
+
+  #image2 img {max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10%;
+  }
+
+  #title3 {
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:16;
+    grid-row-end:17;
+    margin-top: 30%;
+    background-color:#696866;
+  }
+
+  #title3 h3 {padding-left: 20%;
+    color:#F9F6EB;
+  background-color:#696866;}
+
+  #text3 {
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:16;
+    grid-row-end:17;
+    margin-top: 40%;
+    background-color:#696866;
+  }
+
+  #text3 p {padding-left: 20%;
+    color:#F9F6EB;
+  background-color:#696866;
+  line-height: 125%;
+  margin-top: 5%;}
+
+  #image3 {  grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:16;
+    grid-row-end:17;
+  background-color:#696866;}
+
+  #image3 img {max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  }
+
+  #buy h1 {color:#404040;
+  margin-top: 0%;
+  margin-left: 10%;
+  margin-top: 10%;
+margin-bottom: 50%;}
+
+  #buy {
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:20;
+    grid-row-end:22;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 100%;
+  text-align: left;
+
+  }
+
+  #sketcher {grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:21;
+  grid-row-end:24;
+  margin-left: 30%;
+  margin-top: 0%;}
+
+  #sketcher img {
+  max-width: 40%;}
+
+  #craftsman {grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:21;
+  grid-row-end:24;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: -5%;
+  margin-left:25%;
+}
+
+  #craftsman img {
+  max-width: 40%;
+  margin-left: 0%;
+padding-bottom: 50%;
+margin-left: auto;
+margin-right: auto;
+display: block;}
+
+  #illustrator {grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:21;
+  grid-row-end:24;
+  margin-left: 30%;
+  margin-top: 0%;
+  margin-bottom: 40%;}
+
+  #illustrator img {
+  max-width: 40%;}
+
+}
+
+/*MEDIA 45 */
+@media (max-width:38em)
+{ a {
+font-size: 130%;
+}
+
+#logo {
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:2;
+  grid-row-end:3;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo img { max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10%;
+}
+
+  h1 {
+font-family: 'Homemade Apple', cursive;
+font-size: 100%;
+}
+
+#title{
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:3;
+  grid-row-end:4;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 5%;
+}
+
+h2 {
+font-family: 'Reenie Beanie', cursive;
+font-size: 80%;
+}
+
+#slogan{
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:4;
+  grid-row-end:5;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 0%;
+}
+
+#buynowbutton img {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10%;
+}
+
+#buynowbutton {
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:5;
+  grid-row-end:6;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 0%;}
+
+
+#deviceimg img {
+display: none;}
+
+h3 {font-family: 'Source Sans Pro', sans-serif;
+font-size: 80%;
+font-weight: bold;}
+
+#about {
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:6;
+  grid-row-end:7;}
+
+  #title1 {
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:7;
+    grid-row-end:8;
+    margin-top: 20%;
+  }
+
+  p {font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50%;
+  font-weight: lighter;}
+
+
+  #text1 {
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:9;
+    grid-row-end:10;
+  margin-top: -25%;}
+
+  #image1 {  grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:7;
+    grid-row-end:10;
+  background-color:#696866;}
+
+  #image1 img {max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10%;
+  }
+
+  #title2 {
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:11;
+    grid-row-end:12;
+    margin-top: 20%;
+    background-color:#696866;
+  }
+
+  #title2 h3 {padding-right: 20%;
+    color:#F9F6EB;
+  background-color:#696866;}
+
+  #text2 {
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:12;
+    grid-row-end:15;
+    margin-top: 5%;
+      background-color:#696866;
+  }
+
+  #image2 { grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:11;
+    grid-row-end:15;
+  background-color:#696866;}
+
+  #image2 img {max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10%;
+  }
+
+  #title3 {
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:16;
+    grid-row-end:17;
+    margin-top: 30%;
+    background-color:#696866;
+  }
+
+  #title3 h3 {padding-left: 20%;
+    color:#F9F6EB;
+  background-color:#696866;}
+
+  #text3 {
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:16;
+    grid-row-end:17;
+    margin-top: 60%;
+    background-color:#696866;
+  }
+
+  #text3 p {padding-left: 20%;
+    color:#F9F6EB;
+  background-color:#696866;
+  line-height: 125%;
+  margin-top: 5%;}
+
+  #image3 {  grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:16;
+    grid-row-end:17;
+  background-color:#696866;}
+
+  #image3 img {max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  }
+
+  #buy h1 {color:#404040;
+  margin-top: 0%;
+  margin-left: 10%;
+  margin-top: 10%;
+margin-bottom: 50%;}
+
+  #buy {
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:20;
+    grid-row-end:22;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 100%;
+  text-align: left;
+
+  }
+
+  #sketcher {grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:21;
+  grid-row-end:23;
+  margin-top: 0%;}
+
+  #sketcher img {
+  max-width: 55%;
+margin-left: -0%;
+margin-right: auto;
+display:block;
+margin-bottom: 30%;}
+
+  #craftsman {grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:24;
+  grid-row-end:26;
+  margin-top: 5%;
+  margin-left: 0%;
+  margin-top: 0%;
+}
+
+  #craftsman img {
+  max-width: 50%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding-left: 15%;}
+
+  #illustrator {grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:26;
+  grid-row-end:28;
+  margin-left: 0%;
+  margin-top: -15%;
+  margin-bottom: 40%;}
+
+  #illustrator img {
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;}
+
+}
