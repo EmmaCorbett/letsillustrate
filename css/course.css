@@ -338,6 +338,27 @@ margin-bottom: 40%;}
 #illustrator img {
 max-width: 50%;}
 
+#socialmedia
+{grid-column-start:1;
+grid-column-end:3;
+grid-row-start:25;
+grid-row-end:27;
+margin-left: 10%;
+margin-top: 5%;
+margin-bottom: 10%;}
+
+#socialmedia ul{margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+#socialmedia li {font-family: 'Reenie Beanie', cursive;
+}
+
+#socialmedia a {font-size: 300%;}
+
+
+
 
 /*MEDIA 54 */
 @media (max-width:54em)
@@ -580,6 +601,25 @@ margin-bottom: 50%;}
     margin-left: auto;
     margin-right: auto;
     display: block;}
+
+    #socialmedia
+    {grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:32;
+    grid-row-end:33;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  margin-top: -40%;}
+
+    #socialmedia ul{margin-left: auto;
+      margin-right:auto;
+      text-align: center;
+    }
+
+    #socialmedia li {font-family: 'Reenie Beanie', cursive;
+    }
+
+    #socialmedia a {font-size: 200%;}
   }
 
 /*MEDIA 45 */
@@ -835,4 +875,23 @@ padding-left: 15%;}
   margin-right: auto;
   display: block;}
 
+  #socialmedia
+  {grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:32;
+  grid-row-end:33;
+  margin-left: 10%;
+  margin-bottom: 10%;
+margin-top: -15%;}
+
+  #socialmedia ul{margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+  }
+
+  #socialmedia li {font-family: 'Reenie Beanie', cursive;
+  }
+
+  #socialmedia a {font-size: 170%;}
+}
 }
